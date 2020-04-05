@@ -21,30 +21,41 @@ li{list-style:none}
 
    /*My CSS */
 body{
-    background-color: darkslategrey
+    background-color: darkslategrey;
 }
 .MINE{
     position: absolute;
+}
+.avatar{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    display: block;
+    padding-bottom: 10px
 }
 .main{
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
     color: white;
-    font-size: 130%
-}
-.avatar{
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    display: block;
-    padding-bottom: 10px
+    font-size: 150%
 }
 .social img{
     width: 25%;
     padding-top: 20px;
     filter: invert();
+}
+.footer{
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-size: 150%;
+    padding-left: 2%;
 }
 
 
